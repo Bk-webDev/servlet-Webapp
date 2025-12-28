@@ -1,0 +1,19 @@
+<web-app>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ShowAll</servlet-name>
+    <servlet-class>servlet.ShowAllStudentsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowAll</servlet-name>
+    <url-pattern>/show_all</url-pattern>
+  </servlet-mapping>
+</web-app>
